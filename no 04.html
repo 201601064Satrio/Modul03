@@ -1,0 +1,33 @@
+<html>
+    <head>
+     <title>no 04</title>
+        <style>
+            
+            .button { position: relative; padding: .8em;top: -5px; text-decoration: none;/* text color, paddings, etc. */ } 
+            .button::before { content:""; /* To generate the box */ position:absolute;height: 30px; width: 110px; top: 7; right: 0; bottom: 5px; left: 5px; z-index: -1; background: #58a; transform: skew(45deg); }
+            .button > div{display: inline; padding-left: 1em; color: white; font-weight: bold}
+
+            .button2 { position: relative; padding: .8em; top: -5px; text-decoration: none;/* text color, paddings, etc. */ } 
+            .button2::before { content:""; /* To generate the box */ position:absolute;height: 30px; width: 125px; top: 7; right: 0; bottom: 5px; left: 15px; z-index: -1; background: #58a; transform: skew(45deg); }
+            .button2 > div{display: inline; padding-left: 1em; color: white; font-weight: bold}
+            
+        </style>
+    </head>
+    <body>
+    </br>
+<table border="0">
+    <tr>
+                <td>
+                    <a href="#yolo" class="button"> 
+                        <div>Klik Saya</div> 
+                    </a>
+                </td>
+                <td>
+                    <a href="#yolo" class="button2"> 
+                        <div>Klik Saya Saja</div> 
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
